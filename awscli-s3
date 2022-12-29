@@ -1,5 +1,5 @@
 list the objects in bucket:  aws s3 ls s3://<<bucketname>>
-Bucket creation:   aws s3 mb s3://<<bucketname>>
+Bucket creation:             aws s3 mb s3://<<bucketname>>
 upload or download a file:
 aws s3 cp <<local path>>/s3://<<source bucketname>> s3://<<destination bucketname>>
 aws s3 cp <<local path>>/s3://<<source bucketname>> s3://<<destination bucketname>> --recursive
